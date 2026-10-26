@@ -1,0 +1,52 @@
+
+# =====================================
+# MSP Platform Engineering Lab
+# Git Ignore Configuration
+# =====================================
+
+# VS Code local workspace settings
+.vscode/
+*.code-workspace
+
+# PowerShell temporary files
+*.ps1.bak
+*.psm1.bak
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Local test and build artifacts
+TestResults/
+artifacts/
+coverage/
+*.trx
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Terraform (future projects)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Python (future integrations)
+__pycache__/
+*.pyc
+.venv/
